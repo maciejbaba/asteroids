@@ -49,8 +49,6 @@ def main():
             if player.is_colliding(asteroid):
                 print("Game Over!")
                 exit()
-        
-
 
         pygame.display.flip()
 
